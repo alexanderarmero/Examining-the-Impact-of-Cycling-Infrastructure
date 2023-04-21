@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-21 08:26:52.335508 by osmWebWizard.py v1_16_0+1095-e5f7288d143
+  options: 
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="pt_bus" vClass="bus"/>
+    <vType id="pt_tram" vClass="tram"/>
+    <vType id="pt_train" vClass="rail"/>
+    <vType id="pt_subway" vClass="rail_urban"/>
+    <vType id="pt_light_rail" vClass="rail_urban"/>
+    <vType id="pt_monorail" vClass="rail_urban"/>
+    <vType id="pt_trolleybus" vClass="bus"/>
+    <vType id="pt_minibus" vClass="bus"/>
+    <vType id="pt_share_taxi" vClass="taxi"/>
+    <vType id="pt_aerialway" vClass="rail_urban" length="2.5" width="2" personCapacity="4"/>
+    <vType id="pt_ferry" vClass="ship"/>
+    <route id="pt_bus_38:1" edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="-5364578868" duration="20" until="68.0"/> <!-- Dean Street / Chinatown -->
+    </route>
+    <route id="pt_bus_14:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3" >
+        <stop busStop="469780509" duration="20" until="61.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="163.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="5364578870" duration="20" until="243.0"/> <!-- Trocadero / Haymarket -->
+    </route>
+    <route id="pt_bus_9:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="4641072776" duration="20" until="75.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4638404785" duration="20" until="179.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="288.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_19:1" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3" >
+        <stop busStop="469780509" duration="20" until="87.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="189.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="5364578870" duration="20" until="282.0"/> <!-- Trocadero / Haymarket -->
+    </route>
+    <route id="pt_bus_38:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3" >
+        <stop busStop="469780509" duration="20" until="117.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_19:0" edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="-5364578868" duration="20" until="43.0"/> <!-- Dean Street / Chinatown -->
+        <stop busStop="-5364578869" duration="20" until="128.0"/> <!-- Trocadero / Haymarket -->
+        <stop busStop="4638404785" duration="20" until="257.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="367.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_159:0" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="106.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="240.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979549" duration="20" until="355.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_159:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="47.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="159.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="289.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_6:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="4641072776" duration="20" until="75.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4638404785" duration="20" until="201.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="289.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_453:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="80.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="226.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979549" duration="20" until="336.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_9:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="469780509" duration="20" until="123.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="226.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="365.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_453:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="46.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="171.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="333.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_14:1" edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="-5364578868" duration="20" until="44.0"/> <!-- Dean Street / Chinatown -->
+        <stop busStop="-5364578869" duration="20" until="134.0"/> <!-- Trocadero / Haymarket -->
+        <stop busStop="4638404785" duration="20" until="238.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="324.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_6:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="469780509" duration="20" until="94.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="198.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="348.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_12:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="48.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="176.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="299.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_12:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="80.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="225.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979551" duration="20" until="303.0"/> <!-- Beak Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_139:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979552" duration="20" until="94.0"/> <!-- Beak Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="176.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="340.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_94:0" edges="2263976 462641798 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="92.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="238.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979549" duration="20" until="352.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_88:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="46.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="160.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="292.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_88:0" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="80.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="226.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979549" duration="20" until="347.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_N113:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="73.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="236.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979551" duration="20" until="320.0"/> <!-- Beak Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_139:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="98.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="260.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979551" duration="20" until="343.0"/> <!-- Beak Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_N113:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979552" duration="20" until="115.0"/> <!-- Beak Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="193.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="355.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_N97:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="4641072776" duration="20" until="102.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4638404785" duration="20" until="215.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="302.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_N38:1" edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="-5364578868" duration="20" until="43.0"/> <!-- Dean Street / Chinatown -->
+    </route>
+    <route id="pt_bus_N3:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="46.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="175.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="345.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_N109:0" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="95.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="293.0"/> <!-- Piccadilly Circus -->
+    </route>
+    <route id="pt_bus_N15:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="94.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="282.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979551" duration="20" until="367.0"/> <!-- Beak Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_N38:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3" >
+        <stop busStop="469780509" duration="20" until="79.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_N15:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979552" duration="20" until="127.0"/> <!-- Beak Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="242.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="379.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_N9:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="4641072776" duration="20" until="122.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4638404785" duration="20" until="233.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="339.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_N97:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="469780509" duration="20" until="68.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="171.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="349.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_N3:0" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072775" duration="20" until="122.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="349.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979551" duration="20" until="426.0"/> <!-- Beak Street / Hamleys Toy Store -->
+    </route>
+    <route id="pt_bus_N9:0" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="469780509" duration="20" until="87.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="190.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072778" duration="20" until="334.0"/> <!-- Haymarket / Jermyn Street -->
+    </route>
+    <route id="pt_bus_N136:0" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="96.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="250.0"/> <!-- Piccadilly Circus -->
+    </route>
+    <route id="pt_bus_N109:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="61.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="226.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="398.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_94:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 2263976" >
+        <stop busStop="4631979550" duration="20" until="46.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="173.0"/> <!-- Piccadilly Circus -->
+    </route>
+    <route id="pt_bus_N19:0" edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0" >
+        <stop busStop="-5364578868" duration="20" until="74.0"/> <!-- Dean Street / Chinatown -->
+        <stop busStop="-5364578869" duration="20" until="158.0"/> <!-- Trocadero / Haymarket -->
+        <stop busStop="4638404785" duration="20" until="293.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="6266808744" duration="20" until="389.0"/> <!-- Old Bond Street / Royal Academy -->
+    </route>
+    <route id="pt_bus_N19:1" edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3" >
+        <stop busStop="469780509" duration="20" until="103.0"/> <!-- Old Bond Street / Royal Academy -->
+        <stop busStop="4638404786" duration="20" until="205.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="5364578870" duration="20" until="325.0"/> <!-- Trocadero / Haymarket -->
+    </route>
+    <route id="pt_bus_N136:1" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979550" duration="20" until="46.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="162.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="333.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_N18:0" edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882" >
+        <stop busStop="4631979552" duration="20" until="106.0"/> <!-- Beak Street / Hamleys Toy Store -->
+        <stop busStop="4638405889" duration="20" until="181.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4641072779" duration="20" until="352.0"/> <!-- Haymarket / Charles II Street -->
+    </route>
+    <route id="pt_bus_N18:1" edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413" >
+        <stop busStop="4641072776" duration="20" until="73.0"/> <!-- Regent Street / St James's -->
+        <stop busStop="4347844151" duration="20" until="225.0"/> <!-- Piccadilly Circus -->
+        <stop busStop="4631979549" duration="20" until="360.0"/> <!-- Conduit Street / Hamleys Toy Store -->
+    </route>
+    <flow id="pt_bus_38:1" type="pt_bus" route="pt_bus_38:1" begin="27.0" end="1027.0" period="600" line="38:1" >
+        <param key="name" value="London Buses route 38 → Victoria"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_14:0" type="pt_bus" route="pt_bus_14:0" begin="3.0" end="1003.0" period="600" line="14:0" >
+        <param key="name" value="London Buses route 14 → Russell Square"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_9:1" type="pt_bus" route="pt_bus_9:1" begin="55.0" end="1055.0" period="600" line="9:1" >
+        <param key="name" value="London Buses route 9 → Hammersmith"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_19:1" type="pt_bus" route="pt_bus_19:1" begin="15.0" end="1015.0" period="600" line="19:1" >
+        <param key="name" value="London Buses route 19 → Finsbury Park Station"/>
+        <param key="completeness" value="0.07"/>
+    </flow>
+    <flow id="pt_bus_38:0" type="pt_bus" route="pt_bus_38:0" begin="21.0" end="1021.0" period="600" line="38:0" >
+        <param key="name" value="London Buses route 38 → Clapton Pond"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_19:0" type="pt_bus" route="pt_bus_19:0" begin="15.0" end="1015.0" period="600" line="19:0" >
+        <param key="name" value="London Buses route 19 → Battersea park, South Side"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_159:0" type="pt_bus" route="pt_bus_159:0" begin="61.0" end="1061.0" period="600" line="159:0" >
+        <param key="name" value="London Buses route 159 → Oxford Circus"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_159:1" type="pt_bus" route="pt_bus_159:1" begin="93.0" end="1093.0" period="600" line="159:1" >
+        <param key="name" value="London Buses route 159 → Streatham Station"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_6:1" type="pt_bus" route="pt_bus_6:1" begin="131.0" end="1131.0" period="600" line="6:1" >
+        <param key="name" value="London Buses route 6 → Willesden, Bus Garage"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_453:1" type="pt_bus" route="pt_bus_453:1" begin="137.0" end="1137.0" period="600" line="453:1" >
+        <param key="name" value="London Buses route 453 → Marylebone"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_9:0" type="pt_bus" route="pt_bus_9:0" begin="52.0" end="1052.0" period="600" line="9:0" >
+        <param key="name" value="London Buses route 9 → Aldwych"/>
+        <param key="completeness" value="0.12"/>
+    </flow>
+    <flow id="pt_bus_453:0" type="pt_bus" route="pt_bus_453:0" begin="132.0" end="1132.0" period="600" line="453:0" >
+        <param key="name" value="London Buses route 453 → Deptford Bridge"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_14:1" type="pt_bus" route="pt_bus_14:1" begin="201.0" end="1201.0" period="600" line="14:1" >
+        <param key="name" value="London Buses route 14 → Putney Heath"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_6:0" type="pt_bus" route="pt_bus_6:0" begin="119.0" end="1119.0" period="600" line="6:0" >
+        <param key="name" value="London Buses route 6 → Aldwych"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_12:0" type="pt_bus" route="pt_bus_12:0" begin="204.0" end="1204.0" period="600" line="12:0" >
+        <param key="name" value="London Buses route 12 → Dulwich Library"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_12:1" type="pt_bus" route="pt_bus_12:1" begin="227.0" end="1227.0" period="600" line="12:1" >
+        <param key="name" value="London Buses route 12 → Oxford Circus"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_139:0" type="pt_bus" route="pt_bus_139:0" begin="165.0" end="1165.0" period="600" line="139:0" >
+        <param key="name" value="London Buses route 139 → Waterloo"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_94:0" type="pt_bus" route="pt_bus_94:0" begin="253.0" end="1253.0" period="600" line="94:0" >
+        <param key="name" value="London Buses route 94 → Acton Green"/>
+        <param key="completeness" value="0.09"/>
+    </flow>
+    <flow id="pt_bus_88:1" type="pt_bus" route="pt_bus_88:1" begin="321.0" end="1321.0" period="600" line="88:1" >
+        <param key="name" value="London Buses route 88 → Clapham Common"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_88:0" type="pt_bus" route="pt_bus_88:0" begin="303.0" end="1303.0" period="600" line="88:0" >
+        <param key="name" value="London Buses route 88 → Parliament Hill Fields"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_N113:1" type="pt_bus" route="pt_bus_N113:1" begin="331.0" end="1331.0" period="600" line="N113:1" >
+        <param key="name" value="London Buses route N113 → Edgware"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_139:1" type="pt_bus" route="pt_bus_139:1" begin="346.0" end="1346.0" period="600" line="139:1" >
+        <param key="name" value="London Buses route 139 → Golders Green"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_N113:0" type="pt_bus" route="pt_bus_N113:0" begin="327.0" end="1327.0" period="600" line="N113:0" >
+        <param key="name" value="London Buses route N113 → Trafalgar Square"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_N97:1" type="pt_bus" route="pt_bus_N97:1" begin="422.0" end="1422.0" period="600" line="N97:1" >
+        <param key="name" value="London Buses route N97 → Hammersmith"/>
+        <param key="completeness" value="0.10"/>
+    </flow>
+    <flow id="pt_bus_N38:1" type="pt_bus" route="pt_bus_N38:1" begin="484.0" end="1484.0" period="600" line="N38:1" >
+        <param key="name" value="London Buses route N38 → Victoria"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_N3:1" type="pt_bus" route="pt_bus_N3:1" begin="383.0" end="1383.0" period="600" line="N3:1" >
+        <param key="name" value="London Buses route N3 → Bromley North"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N109:0" type="pt_bus" route="pt_bus_N109:0" begin="389.0" end="1389.0" period="600" line="N109:0" >
+        <param key="name" value="London Buses route N109 → Oxford Circus"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N15:1" type="pt_bus" route="pt_bus_N15:1" begin="362.0" end="1362.0" period="600" line="N15:1" >
+        <param key="name" value="London Buses route N15 → Oxford Circus"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_N38:0" type="pt_bus" route="pt_bus_N38:0" begin="483.0" end="1483.0" period="600" line="N38:0" >
+        <param key="name" value="London Buses route N38 → Walthamstow Central"/>
+        <param key="completeness" value="0.01"/>
+    </flow>
+    <flow id="pt_bus_N15:0" type="pt_bus" route="pt_bus_N15:0" begin="353.0" end="1353.0" period="600" line="N15:0" >
+        <param key="name" value="London Buses route N15 → Romford Market"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_N9:1" type="pt_bus" route="pt_bus_N9:1" begin="441.0" end="1441.0" period="600" line="N9:1" >
+        <param key="name" value="London Buses route N9 → Heathrow Terminal 5"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N97:0" type="pt_bus" route="pt_bus_N97:0" begin="418.0" end="1418.0" period="600" line="N97:0" >
+        <param key="name" value="London Buses route N97 → Trafalgar Square"/>
+        <param key="completeness" value="0.11"/>
+    </flow>
+    <flow id="pt_bus_N3:0" type="pt_bus" route="pt_bus_N3:0" begin="371.0" end="1371.0" period="600" line="N3:0" >
+        <param key="name" value="London Buses route N3 → Oxford Circus"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N9:0" type="pt_bus" route="pt_bus_N9:0" begin="437.0" end="1437.0" period="600" line="N9:0" >
+        <param key="name" value="London Buses route N9 → Aldwych"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N136:0" type="pt_bus" route="pt_bus_N136:0" begin="508.0" end="1508.0" period="600" line="N136:0" >
+        <param key="name" value="London Buses route N136 → Oxford Circus"/>
+        <param key="completeness" value="0.02"/>
+    </flow>
+    <flow id="pt_bus_N109:1" type="pt_bus" route="pt_bus_N109:1" begin="406.0" end="1406.0" period="600" line="N109:1" >
+        <param key="name" value="London Buses route N109 → Croydon Town Centre"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_94:1" type="pt_bus" route="pt_bus_94:1" begin="583.0" end="1583.0" period="600" line="94:1" >
+        <param key="name" value="London Buses route 94 → Piccadilly Circus"/>
+        <param key="completeness" value="0.06"/>
+    </flow>
+    <flow id="pt_bus_N19:0" type="pt_bus" route="pt_bus_N19:0" begin="490.0" end="1490.0" period="600" line="N19:0" >
+        <param key="name" value="London Buses route N19 → Clapham Junction"/>
+        <param key="completeness" value="0.08"/>
+    </flow>
+    <flow id="pt_bus_N19:1" type="pt_bus" route="pt_bus_N19:1" begin="497.0" end="1497.0" period="600" line="N19:1" >
+        <param key="name" value="London Buses route N19 → Finsbury Park Station"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+    <flow id="pt_bus_N136:1" type="pt_bus" route="pt_bus_N136:1" begin="517.0" end="1517.0" period="600" line="N136:1" >
+        <param key="name" value="London Buses route N136 → Chislehurst, War Memorial"/>
+        <param key="completeness" value="0.03"/>
+    </flow>
+    <flow id="pt_bus_N18:0" type="pt_bus" route="pt_bus_N18:0" begin="535.0" end="1535.0" period="600" line="N18:0" >
+        <param key="name" value="London Buses route N18 → Trafalgar Square"/>
+        <param key="completeness" value="0.04"/>
+    </flow>
+    <flow id="pt_bus_N18:1" type="pt_bus" route="pt_bus_N18:1" begin="574.0" end="1574.0" period="600" line="N18:1" >
+        <param key="name" value="London Buses route N18 → Harrow Weald"/>
+        <param key="completeness" value="0.05"/>
+    </flow>
+</routes>

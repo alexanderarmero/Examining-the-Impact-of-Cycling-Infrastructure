@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-21 08:26:51 by Eclipse SUMO netconvert Version v1_16_0+1095-e5f7288d143
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <busStop id="-5364578868" name="Dean Street / Chinatown" lane="-1065127950_0" startPos="50.93" endPos="65.93" friendlyPos="true" lines="19 38 14 N38 N19"/>
+    <busStop id="-5364578869" name="Trocadero / Haymarket" lane="-542471105#2_0" startPos="63.29" endPos="78.29" friendlyPos="true" lines="19 14 N19"/>
+    <busStop id="3810553688" name="Trafalgar Square" lane="603198589_0" startPos="10.73" endPos="25.73" friendlyPos="true"/>
+    <busStop id="4347844151" name="Piccadilly Circus" lane="1018951432_0" startPos="57.75" endPos="72.75" friendlyPos="true" lines="159 453 12 94 88 N113 139 N15 N3 N109 N136 N18"/>
+    <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store" lane="1018951413_0" startPos="11.07" endPos="26.07" friendlyPos="true" lines="159 453 94 88 N18"/>
+    <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store" lane="1018951411_0" startPos="72.96" endPos="87.96" friendlyPos="true" lines="159 453 12 88 N3 N109 N136 94"/>
+    <busStop id="4631979551" name="Beak Street / Hamleys Toy Store" lane="1018951424_0" startPos="39.95" endPos="54.95" friendlyPos="true" lines="12 N113 139 N15 N3"/>
+    <busStop id="4631979552" name="Beak Street / Hamleys Toy Store" lane="1018951420_0" startPos="40.76" endPos="55.76" friendlyPos="true" lines="139 N113 N15 N18"/>
+    <busStop id="4638404785" name="Piccadilly Circus" lane="1135566097_0" startPos="27.66" endPos="42.66" friendlyPos="true" lines="19 9 6 14 N97 N9 N19"/>
+    <busStop id="4638404786" name="Piccadilly Circus" lane="1135566095#1_0" startPos="94.23" endPos="109.23" friendlyPos="true" lines="14 19 9 6 N97 N9 N19"/>
+    <busStop id="4638404788" name="Piccadilly Circus" lane="1018951432_0" startPos="0.00" endPos="15.00" friendlyPos="true"/>
+    <busStop id="4638405889" name="Piccadilly Circus" lane="1018951431_0" startPos="49.67" endPos="64.67" friendlyPos="true" lines="159 453 139 12 88 N113 N15 N3 N109 N136 N18 94"/>
+    <busStop id="4638405891" name="Piccadilly Circus" lane="1018945232_0" startPos="27.18" endPos="42.18" friendlyPos="true"/>
+    <busStop id="4641072775" name="Regent Street / St James&apos;s" lane="462641800#0_0" startPos="47.40" endPos="62.40" friendlyPos="true" lines="453 12 94 88 N15 N3"/>
+    <busStop id="4641072776" name="Regent Street / St James&apos;s" lane="462641800#0_0" startPos="0.85" endPos="15.85" friendlyPos="true" lines="9 159 6 N113 139 N109 N97 N9 N136 N18"/>
+    <busStop id="4641072777" name="Charles II Street" lane="2263976_0" startPos="135.10" endPos="150.10" friendlyPos="true"/>
+    <busStop id="4641072778" name="Haymarket / Jermyn Street" lane="35085535#0_0" startPos="17.85" endPos="32.85" friendlyPos="true" lines="9 6 139 N113 N15 N9"/>
+    <busStop id="4641072779" name="Haymarket / Charles II Street" lane="436945579#0_0" startPos="36.38" endPos="51.38" friendlyPos="true" lines="159 453 12 88 N3 N109 N97 N136 N18"/>
+    <busStop id="469780509" name="Old Bond Street / Royal Academy" lane="669229893#0_0" startPos="23.10" endPos="38.10" friendlyPos="true" lines="14 19 38 9 6 N97 N9 N38 N19"/>
+    <busStop id="5364578870" name="Trocadero / Haymarket" lane="211487026#0_0" startPos="49.63" endPos="64.63" friendlyPos="true" lines="14 19 N19"/>
+    <busStop id="6266808744" name="Old Bond Street / Royal Academy" lane="669229894#0_0" startPos="18.13" endPos="33.13" friendlyPos="true" lines="19 9 6 14 N97 N9 N19"/>
+    <busStop id="917763913" name="Piccadilly Circus" lane="1018945233_0" startPos="31.59" endPos="46.59" friendlyPos="true"/>
+</additional>

@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2023-04-21 08:26:51 by Eclipse SUMO netconvert Version v1_16_0+1095-e5f7288d143
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <type-files value="${SUMO_HOME}/data/typemap/osmNetconvert.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertBicycle.typ.xml,${SUMO_HOME}/data/typemap/osmNetconvertAerialway.typ.xml"/>
+        <osm-files value="osm_bbox.osm.xml.gz"/>
+    </input>
+
+    <output>
+        <output-file value="osm.net.xml.gz"/>
+        <output.street-names value="true"/>
+        <output.original-names value="true"/>
+        <ptstop-output value="osm_stops.add.xml"/>
+        <ptline-output value="osm_ptlines.xml"/>
+    </output>
+
+    <projection>
+        <proj value="+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs"/>
+    </projection>
+
+    <processing>
+        <geometry.remove value="true"/>
+        <roundabouts.guess value="true"/>
+        <lefthand value="true"/>
+    </processing>
+
+    <tls_building>
+        <tls.discard-simple value="true"/>
+        <tls.join value="true"/>
+        <tls.guess-signals value="true"/>
+        <tls.default-type value="actuated"/>
+    </tls_building>
+
+    <ramp_guessing>
+        <ramps.guess value="true"/>
+    </ramp_guessing>
+
+    <junctions>
+        <junctions.join value="true"/>
+        <junctions.corner-detail value="5"/>
+    </junctions>
+
+    <railway>
+        <railway.topology.repair value="true"/>
+    </railway>
+
+    <formats>
+        <osm.bike-access value="true"/>
+    </formats>
+
+</configuration>
+-->
+
+<ptLines xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/ptlines_file.xsd">
+    <ptLine id="2868135" name="London Buses route 14 → Russell Square" line="14" type="bus" vClass="bus" completeness="0.08">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="5364578870" name="Trocadero / Haymarket"/>
+    </ptLine>
+    <ptLine id="308605" name="London Buses route 19 → Battersea park, South Side" line="19" type="bus" vClass="bus" completeness="0.09">
+        <route edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="-5364578868" name="Dean Street / Chinatown"/>
+        <busStop id="-5364578869" name="Trocadero / Haymarket"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="3969604" name="London Buses route 19 → Finsbury Park Station" line="19" type="bus" vClass="bus" completeness="0.07">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="5364578870" name="Trocadero / Haymarket"/>
+    </ptLine>
+    <ptLine id="3969851" name="London Buses route 38 → Clapton Pond" line="38" type="bus" vClass="bus" completeness="0.01">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="3969852" name="London Buses route 38 → Victoria" line="38" type="bus" vClass="bus" completeness="0.01">
+        <route edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="-5364578868" name="Dean Street / Chinatown"/>
+    </ptLine>
+    <ptLine id="3978056" name="London Buses route 9 → Aldwych" line="9" type="bus" vClass="bus" completeness="0.12">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="3978057" name="London Buses route 9 → Hammersmith" line="9" type="bus" vClass="bus" completeness="0.12">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="3999996" name="London Buses route 159 → Oxford Circus" line="159" type="bus" vClass="bus" completeness="0.08">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="3999997" name="London Buses route 159 → Streatham Station" line="159" type="bus" vClass="bus" completeness="0.08">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="4000002" name="London Buses route 6 → Aldwych" line="6" type="bus" vClass="bus" completeness="0.08">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="4000003" name="London Buses route 6 → Willesden, Bus Garage" line="6" type="bus" vClass="bus" completeness="0.08">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="4119761" name="London Buses route 453 → Deptford Bridge" line="453" type="bus" vClass="bus" completeness="0.08">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="4119762" name="London Buses route 453 → Marylebone" line="453" type="bus" vClass="bus" completeness="0.08">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="417700" name="London Buses route 139 → Waterloo" line="139" type="bus" vClass="bus" completeness="0.08">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979552" name="Beak Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="4255061" name="London Buses route 14 → Putney Heath" line="14" type="bus" vClass="bus" completeness="0.11">
+        <route edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="-5364578868" name="Dean Street / Chinatown"/>
+        <busStop id="-5364578869" name="Trocadero / Haymarket"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="4869847" name="London Buses route 12 → Dulwich Library" line="12" type="bus" vClass="bus" completeness="0.09">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="4869848" name="London Buses route 12 → Oxford Circus" line="12" type="bus" vClass="bus" completeness="0.08">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979551" name="Beak Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="540376" name="London Buses route 94 → Acton Green" line="94" type="bus" vClass="bus" completeness="0.09">
+        <route edges="2263976 462641798 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="5463939" name="London Buses route 88 → Parliament Hill Fields" line="88" type="bus" vClass="bus" completeness="0.06">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="5463940" name="London Buses route 88 → Clapham Common" line="88" type="bus" vClass="bus" completeness="0.06">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="7064988" name="London Buses route N113 → Trafalgar Square" line="N113" type="bus" vClass="bus" completeness="0.05">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979552" name="Beak Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="7064989" name="London Buses route N113 → Edgware" line="N113" type="bus" vClass="bus" completeness="0.06">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979551" name="Beak Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="7130351" name="London Buses route 139 → Golders Green" line="139" type="bus" vClass="bus" completeness="0.08">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979551" name="Beak Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="7226258" name="London Buses route N15 → Romford Market" line="N15" type="bus" vClass="bus" completeness="0.03">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979552" name="Beak Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="7226259" name="London Buses route N15 → Oxford Circus" line="N15" type="bus" vClass="bus" completeness="0.03">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979551" name="Beak Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="7258391" name="London Buses route N3 → Oxford Circus" line="N3" type="bus" vClass="bus" completeness="0.04">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072775" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979551" name="Beak Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="7258392" name="London Buses route N3 → Bromley North" line="N3" type="bus" vClass="bus" completeness="0.04">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="7390920" name="London Buses route N109 → Oxford Circus" line="N109" type="bus" vClass="bus" completeness="0.04">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+    </ptLine>
+    <ptLine id="7390921" name="London Buses route N109 → Croydon Town Centre" line="N109" type="bus" vClass="bus" completeness="0.05">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="7401110" name="London Buses route N97 → Trafalgar Square" line="N97" type="bus" vClass="bus" completeness="0.11">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="7401111" name="London Buses route N97 → Hammersmith" line="N97" type="bus" vClass="bus" completeness="0.10">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="7456964" name="London Buses route N9 → Aldwych" line="N9" type="bus" vClass="bus" completeness="0.04">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="4641072778" name="Haymarket / Jermyn Street"/>
+    </ptLine>
+    <ptLine id="7456965" name="London Buses route N9 → Heathrow Terminal 5" line="N9" type="bus" vClass="bus" completeness="0.04">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="7458663" name="London Buses route N38 → Walthamstow Central" line="N38" type="bus" vClass="bus" completeness="0.01">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="7458664" name="London Buses route N38 → Victoria" line="N38" type="bus" vClass="bus" completeness="0.01">
+        <route edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="-5364578868" name="Dean Street / Chinatown"/>
+    </ptLine>
+    <ptLine id="7464642" name="London Buses route N19 → Clapham Junction" line="N19" type="bus" vClass="bus" completeness="0.08">
+        <route edges="-1065127950 -1094661232#2 -542471105#5 -542471105#2 -542471105#0 542471106 -211487026#1 210447794#0 210447794#3 1135565524#0 1135565525#0 1135566097 1135566098#0 211486426#0 -669229893#0 669229894#0"/>
+        <busStop id="-5364578868" name="Dean Street / Chinatown"/>
+        <busStop id="-5364578869" name="Trocadero / Haymarket"/>
+        <busStop id="4638404785" name="Piccadilly Circus"/>
+        <busStop id="6266808744" name="Old Bond Street / Royal Academy"/>
+    </ptLine>
+    <ptLine id="7464643" name="London Buses route N19 → Finsbury Park Station" line="N19" type="bus" vClass="bus" completeness="0.05">
+        <route edges="211557607#0 232725809 669229893#0 232725808 1135566870 211557609#0 211557609#1 211557609#2 1135566096#0 1135566095#0 1135566095#1 1135565527#0 1135565526#0 1135565526#1 4376571#0 43486254#0 211487026#0 4376580 542471105#0 542471105#1 542471105#3 1094661232#0 1094661232#3"/>
+        <busStop id="469780509" name="Old Bond Street / Royal Academy"/>
+        <busStop id="4638404786" name="Piccadilly Circus"/>
+        <busStop id="5364578870" name="Trocadero / Haymarket"/>
+    </ptLine>
+    <ptLine id="8208670" name="London Buses route N136 → Oxford Circus" line="N136" type="bus" vClass="bus" completeness="0.02">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+    </ptLine>
+    <ptLine id="8208671" name="London Buses route N136 → Chislehurst, War Memorial" line="N136" type="bus" vClass="bus" completeness="0.03">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="8211456" name="London Buses route N18 → Trafalgar Square" line="N18" type="bus" vClass="bus" completeness="0.04">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 53876136 1065112862 210500025#0 507776882"/>
+        <busStop id="4631979552" name="Beak Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+        <busStop id="4641072779" name="Haymarket / Charles II Street"/>
+    </ptLine>
+    <ptLine id="8211457" name="London Buses route N18 → Harrow Weald" line="N18" type="bus" vClass="bus" completeness="0.05">
+        <route edges="183056157#0 4356102 1018924455 1018924456 462641800#0 35085536#0 193420534 436943364#0 1018945233 1018943769 436938229 1018951434 1018951432 1067635382 1018951427#0 1018951427#2 1067635381 1018951424 1018951419 436938220#0 436938220#2 1018951418 1018951421#0 1024601863#0 1018951416 1018951413"/>
+        <busStop id="4641072776" name="Regent Street / St James&apos;s"/>
+        <busStop id="4347844151" name="Piccadilly Circus"/>
+        <busStop id="4631979549" name="Conduit Street / Hamleys Toy Store"/>
+    </ptLine>
+    <ptLine id="8691764" name="London Buses route 94 → Piccadilly Circus" line="94" type="bus" vClass="bus" completeness="0.06">
+        <route edges="1018951411 1018951414 1018951415#0 1018951422#0 1018951417 38748498#0 38748498#2 1018951420 1064360339#0 1018951428#0 1018951429 1018951431 1018951433 399696957 1018945234#0 1018945232 43118736#0 215065448#0 4369048#0 35085535#0 35085535#1 436945579#0 436945579#1 2263976"/>
+        <busStop id="4631979550" name="Conduit Street / Hamleys Toy Store"/>
+        <busStop id="4638405889" name="Piccadilly Circus"/>
+    </ptLine>
+</ptLines>
