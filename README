@@ -1,4 +1,4 @@
-# Examining the Impact of Cycling Infrastructure
+ # Examining the Impact of Cycling Infrastructure
 
 This repository contains the dissertation project for King's College London computer science graduate. The project is a SUMO and JADE multi-agent system simulation examining the impact of different cycling infrastructure densities in Piccadilly Circus. The project consists of three different simulations, each with varying cycling infrastructure densities.
 
